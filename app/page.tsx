@@ -3,7 +3,7 @@ export default function Home() {
     <main className="font-sans text-gray-800">
 
       {/* HERO SECTION */}
-      <section className="py-24 px-6 text-center bg-gradient-to-b from-white to-purple-50">
+      <section className="py-24 px-6 text-center bg-gradient-to-b from-white to-[#F4F8F9]">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Therapy for Anxiety, Trauma & Burnout in Santa Monica
         </h1>
@@ -14,7 +14,7 @@ export default function Home() {
           reconnect with your sense of calm.
         </p>
 
-        <button className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition shadow-md">
+        <button className="bg-[#4F6D7A] text-white px-6 py-3 rounded-lg hover:bg-[#3E5963] transition shadow-md">
           Schedule a Free Consultation
         </button>
       </section>
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* CTA SECTION */}
-      <section className="py-20 px-6 bg-purple-600 text-white text-center">
+      <section className="py-20 px-6 bg-[#4F6D7A] text-white text-center">
         <h2 className="text-3xl font-bold mb-4">
           Ready to Start Feeling Better?
         </h2>
@@ -145,7 +145,7 @@ export default function Home() {
           more balanced life.
         </p>
 
-        <button className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold shadow-md">
+        <button className="bg-white text-[#4F6D7A] px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
           Get Started
         </button>
       </section>
